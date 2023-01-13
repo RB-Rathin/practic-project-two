@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+
+}
+
+/* Header-part */
+header {
+    padding-top: 87px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+i{
+    font-size:24px;
+    
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.nav-container {
+    display: flex;
+    gap: 34px;
+}
+
+.nav-container li {
+    list-style: none;
+}
+
+.nav-container a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+/* Responsive design */
+/* Small device */
+@media only screen and (max-width:577px) {
+    nav{
+        padding-left: 10px;
+    }
+    nav ,.nav-container{
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .nav-container{
+
+    }
+
+}
+/* Medium device */
